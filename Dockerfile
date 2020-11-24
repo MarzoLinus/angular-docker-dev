@@ -1,7 +1,7 @@
 FROM node:lts
 
 # aggiornare npm (Node Package manager) all'ultima versione / upgrading NPM to last version
-npm install -g npm@latest
+RUN npm install -g npm@latest
 
 # Installazione del CLI di Angular / Angular CLI Installation
 RUN npm install -g @angular/cli

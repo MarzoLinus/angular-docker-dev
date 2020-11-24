@@ -25,4 +25,7 @@ All'interno di questo container avremo già installato:
 - l'ultima versione di NPM (necessario per la gestione dei pacchetti e delle dipendenze del ns progetto Angular)
 - l'ultima versione di Angular CLI
 
-A questo punto è possibile iniziare lo sviluppo del nostro nuovo progetto Angular!
+Per entrare nel container:  
+`docker exec -it angular_dev bash`
+
+A questo punto è possibile iniziare la creazione e lo sviluppo del nostro nuovo progetto Angular!

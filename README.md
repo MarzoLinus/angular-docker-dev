@@ -2,8 +2,12 @@
 
 ## 1. Clonare questo repository
 Per clonare in locale questo repository utilizzare il comando:
-`git clone`
-E' ovviamente necessario avere git installato.
+`git clone ...`
+
+Comando completo per clonare via HTTPS:  
+`git clone https://gitlab.com/emergency-devgroup/angular-lab/angular-dev-docker.git`
+
+E' ovviamente necessario avere git installato. Per clonare il repo usando SSH vedi pagina di GitLab (me è necessario aver settato le chiavi SSH).
 
 ## 2. Comando 3in1
 Posizionandosi nella directory contenente il repo  lanciare il seguente comando:

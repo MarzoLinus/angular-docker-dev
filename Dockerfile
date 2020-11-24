@@ -1,7 +1,10 @@
 FROM node:lts
 
-# Install global npm packages
+# aggiornare npm (Node Package manager) all'ultima versione / upgrading NPM to last version
+npm install -g npm@latest
+
+# Installazione del CLI di Angular / Angular CLI Installation
 RUN npm install -g @angular/cli
 
-# Set working directory
+# imposto la workdir / setting working directory
 WORKDIR /usr/src/app

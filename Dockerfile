@@ -8,3 +8,5 @@ RUN npm install -g @angular/cli
 
 # imposto la workdir / setting working directory
 WORKDIR /usr/src/app
+
+EXPOSE 4200

@@ -29,3 +29,15 @@ Per entrare nel container:
 `docker exec -it angular_dev bash`
 
 A questo punto è possibile iniziare la creazione e lo sviluppo del nostro nuovo progetto Angular!
+
+Per farlo posizionarsi in /usr/src/:
+`cd /usr/src`
+
+La nuova applicazione deve necessariamente chiamarsi "app"  
+(in caso contrario sarà necessario rinominare la directory in questo repository e il relativo riferimento nel file .yaml)
+
+Per crearla:
+`ng new app`
+
+Durante la creazione Angular inzizializza un repository git.
+Per pre-impostare correttamente Nome Utente e Email con cui verranno eseguiti i commit modificare i relativi parametri nel file ./git-config/.gitconfig presente in questo repo. In alternativa usare il comando "git config" con le opportune opzioni dalla bash dentro la docker.

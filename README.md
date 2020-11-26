@@ -48,5 +48,7 @@ Per pre-impostare correttamente Nome Utente e Email con cui verranno eseguiti i 
 Sarà poi possibile pushare i commit di questo repository sull'origine remota che si preferisce.
 
 ## Server di sviluppo
-Per compilare l'app e verificare quanto si è sviluppato è necessario lanciare il server di sviluppo.
-L'opzione *--host* è necessaria perché il server di sviluppo di Angular accetti connessioni dall'esterno.
+Per compilare l'app e verificare quanto si Ã¨ sviluppato Ã¨ necessario lanciare il server di sviluppo lanciare il seguente comando.
+L'opzione *--host* Ã¨ necessaria perchÃ© il server di sviluppo di Angular accetti connessioni dall'esterno.
+
+`ng serve --host 0.0.0.0 --poll 1`
